@@ -1,0 +1,68 @@
+/*
+Primary Color - #191D32
+Secondary Color - #BA2C73 */
+*{
+  font-family: "Chewy", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+body{
+    background-color: #191D32 ;
+    color: white;
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+}
+.main-instructions{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    place-items: center;
+}
+.instructions-heading{
+    color: #BA2C73;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.instructions>ul, li{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+.main-gamebody{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-items: center;
+    align-items: center;
+    border-radius: 16px;
+    gap: 1em;
+    visibility: hidden;
+}
+.gamebox{
+    width: 1.4em;
+    height: 1.4em;
+    color: #BA2C73;
+    background-color: #191D32;
+    border-radius: 16px;
+    font-size: 70px;
+}
+.turn-indicator{
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer{
+    text-align: center;
+    margin-top: 10px;
+}
+.start-btn{
+    padding: 10px;
+    width: 100px;
+    margin: 10px 0px 10px 0px;
+    color: #BA2C73;
+    border-radius: 10px;
+    background-color: #BA2C73;
+    color: #191D32;
+}
