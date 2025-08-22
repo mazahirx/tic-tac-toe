@@ -1,7 +1,7 @@
-# tic-tac-toe   <p><i>Some updates are pending</i></p>
+# tic-tac-toe
 <h1>🎮 Tic Tac Toe Game</h1>
 A simple Tic Tac Toe game built with HTML, CSS, and JavaScript. This project demonstrates the core concepts of front-end web development and JavaScript logic building.
-
+<p><i>Some updates are pending</i></p>
 <h3>🚀 How to Play</h3>
 1.Click Start Game to begin.<br>
 2.The first turn always starts with X.<br>
